@@ -17,7 +17,7 @@ were changed and, if a Java class, what methods were changed.
 
 Documentation
 =============
-Every class is fully JavaDoc'd and browsable [here](clstroud.github.io/JGitDiff/)
+Every class is fully JavaDoc'd and browsable [here](http://clstroud.github.io/JGitDiff/Docs/)
 
 
 Usage
