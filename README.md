@@ -22,4 +22,4 @@ Every class is fully JavaDoc'd and browsable [here](clstroud.github.io/JGitDiff/
 
 Usage
 ======
-It's made to be nice and simple, but please view the usage guide [here](link)
+It's made to be nice and simple, but please view the usage guide [here](https://github.com/Clstroud/JGitDiff/wiki/Usage)
