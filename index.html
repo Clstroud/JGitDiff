@@ -37,9 +37,9 @@ as of this writing:</p>
 <li>.java</li>
 <li>.jsp</li>
 <li>.sql </li>
-</ul><p>This was essentially designed to meet the needs of NC State's CSC-326 (Undergraduate Software Engineering) course,but could be
+</ul><p>This was essentially designed to meet the needs of NC State's CSC-326 (Undergraduate Software Engineering) course, but could be
 adapted to other types of projects if desired. The overall goal is to produce a plaintext summary of what files
-were changed and,if a Java class,what methods were changed.</p>
+were changed and, if a Java class, what methods were changed.</p>
 <h1>
 <a name="documentation" class="anchor" href="#documentation"><span class="octicon octicon-link"></span></a>Documentation</h1>
 <p>Every class is fully JavaDoc'd and browsable <a href="http://clstroud.github.io/JGitDiff/Docs/">here</a></p>
@@ -47,34 +47,37 @@ were changed and,if a Java class,what methods were changed.</p>
 <a name="usage" class="anchor" href="#usage"><span class="octicon octicon-link"></span></a>Usage</h1>
 <div id="guide" class="owl-carousel">
 <div style="text-align:center"> 
-<img src="images/a.png" alt="image" /><br><br>
+<img class="lazyOwl" data-src="images/a.png" alt="image" /><br><br>
 <p style="text-align:center">1. Select "Open Local Repository" from the "File" menu</p> 
 </div>
 <div> 
-<img src="images/b.png" alt="image" /><br><br>
+<img class="lazyOwl" data-src="images/b.png" alt="image" /><br><br>
 <p style="text-align:center">2. Select the top-level directory of the repository</p> 
 </div>
 <div> 
-<img src="images/c.png" alt="image" /><br><br>
+<img class="lazyOwl" data-src="images/c.png" alt="image" /><br><br>
 <p style="text-align:center">3. Select the target base commit</p>
 </div>
 <div> 
-<img src="images/d.png" alt="image" /><br><br>
+<img class="lazyOwl" data-src="images/d.png" alt="image" /><br><br>
 <p style="text-align:center">4. Select the target "latest" (aka "new") commit</p>
 </div>
 <div> 
-<img src="images/e.png" alt="image" /><br><br>
+<img class="lazyOwl" data-src="images/e.png" alt="image" /><br><br>
 <p style="text-align:center">5. Click "Perform Diff"</p>
 </div>
 <div> 
-<img src="images/f.png" alt="image" /><br><br>
-<p style="text-align:center">The program will appear to lock (it isn't threaded) while it processes. Just give it time to do its analysis. Once finished,it will open the results in your default text editor.</p>
+<img class="lazyOwl" data-src="images/f.png" alt="image" /><br><br>
+<p style="text-align:center">The program will appear to lock (it isn't threaded) while it processes. Just give it time to do its analysis. Once finished, it will open the results in your default text editor.</p>
 </div>
 </div>
 <script type="text/javascript">
 $(document).ready(function(){var owl = $("#guide");owl.owlCarousel({navigation :true,
 singleItem :true,
-transitionStyle :"backSlide"}
+transitionStyle :"backSlide",
+lazyLoad : true,
+lazyFollow : true,
+autoHeight:true}
 );}
 );</script>
 </section>
